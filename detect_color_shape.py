@@ -1,4 +1,4 @@
-
+import sys	
 from pyimagesearch.shapedetector import ShapeDetector
 from pyimagesearch.colorlabeler import ColorLabeler
 import argparse
@@ -6,8 +6,9 @@ import imutils
 import cv2
 import numpy as np
 
-
-image = cv2.imread("shapesPhoto.png")
+ar = sys.argv
+img = ar[1]
+image = cv2.imread(img)
 l,h,c=image.shape
 #print l,h,c
 r = 150.0 / image.shape[1]
