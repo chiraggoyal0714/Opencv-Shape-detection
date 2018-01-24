@@ -32,5 +32,6 @@ where shapesPhoto.png sample Image
 ### Windows
 open Idle and simple run the **detect_color_shape.py** file
 
+***
 
 **Created by Chirag Goyal**
